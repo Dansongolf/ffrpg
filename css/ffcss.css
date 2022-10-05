@@ -48,14 +48,25 @@ hr {
   border-top-width: 7px;
   width: 2.5%;
   color: gray;
+
 }
 p{
   font-size: 1.5em;
 }
 
 .arcane {
-  height: 300px;
-  width: 300px;
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 40% 75% 40% 75%;
+  width: 30%;
+}
+
+.arcane-container{
+  margin: 100px auto 100px auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: right;
+  width: 50%;
 }
 
 .borek {
@@ -76,8 +87,18 @@ p{
 }
 
 .divine {
-  height: 300px;
-  width: 300px;
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 25%;
+}
+
+.divine-container{
+  margin: 100px auto 200px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+  width: 50%;
 }
 .estee{
   float: left;
@@ -105,6 +126,24 @@ p{
   text-align: right;
   width: 50%;
 }
+
+.galbadia{
+  width: auto;
+  height: 1000px;
+
+
+}
+
+.galbadia-container{
+  width: 100%;
+}
+
+.gam{
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 25%;
+}
 .ishap{
   float: left;
   margin: 30px 30px 30px 30px;
@@ -126,7 +165,7 @@ p{
 }
 
 .magic {
-  float: right;
+  float: left;
   margin: 30px 30px 30px 30px;
   border-radius: 40% 75% 40% 75%;
   width: 20%;
@@ -135,7 +174,7 @@ p{
 .magic-container {
   margin: 100px auto 100px auto;
   padding: 10px 0;
-  text-align: right;
+  text-align: left;
   width: 50%;
 }
 
@@ -144,6 +183,22 @@ p{
   margin: 30px 30px 30px 30px;
   border-radius: 40% 75% 40% 75%;
   width: 25%;
+}
+
+
+
+.mercutio{
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 20%;
+}
+
+.mercutio-container{
+  margin: 100px auto 100px auto;
+
+  text-align: left;
+  width: 50%;
 }
 
 .middle-container {
@@ -178,6 +233,20 @@ p{
   width: 30%;
 }
 
+.oakgam-container{
+  margin: 100px auto 100px auto;
+  padding: 10px 0;
+  text-align: left;
+  width: 50%;
+}
+
+.oak{
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 40% 75% 40% 75%;
+  width: 20%;
+}
+
 .pc-container {
   margin: 100px auto 100px auto;
   padding: 20px 0;
@@ -193,8 +262,18 @@ p{
 }
 
 .primal {
-  height: 300px;
-  width: 300px;
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 100%;
+  width: 40%;
+}
+
+.primal-container{
+  margin: 100px auto 100px auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: right;
+  width: 50%;
 }
 
 .roscoe-image {
@@ -215,12 +294,12 @@ p{
 .rules-container {
   margin: 100px auto 100px auto;
   padding: 10px 0;
-  text-align: left;
+  text-align: right;
   width: 50%;
 }
 
 .rules {
-  float: left;
+  float: right;
   margin: 30px 30px 30px 30px;
   border-radius: 75% 40% 75% 40%;
   width: 25%;
@@ -240,6 +319,20 @@ p{
   width: 50%;
 }
 
+.sunni-container{
+  margin: 100px auto 100px auto;
+  padding: 10px 0;
+  text-align: right;
+  width: 50%;
+}
+
+.sunni{
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 25%;
+}
+
 .talents {
   float: left;
   margin: 30px 30px 30px 30px;
@@ -252,6 +345,20 @@ p{
   padding: 10px 0;
   text-align: left;
   width: 50%;
+}
+
+.thata-container{
+  margin: 100px auto 100px auto;
+  padding: 20px 0;
+  text-align: left;
+  width: 50%;
+}
+
+.thata{
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 75% 75% 75%;
+  width: 20%;
 }
 .yxmaja{
   float: right;
